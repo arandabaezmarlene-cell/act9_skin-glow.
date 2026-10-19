@@ -1,0 +1,274 @@
+.menu-contenedor {
+    min-height: 80px;
+    background-color: #cfbef0;
+    padding: 5px 0;
+}
+
+.menu-sin-js {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.menu-sin-js a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nombre-marca {
+    color: #080808;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* TAMAÑO DEL LOGO */
+.menu-contenedor img {
+    width: 170px;
+    height: auto;
+    max-width: 100%;
+}
+
+/* BANNER ESTÁTICO */
+.banner-estatico {
+    position: relative;
+    min-height: 350px;
+    background-color: #a984d3;
+    overflow: hidden;
+}
+
+.imagen-banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.contenido-banner {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background: rgba(255, 240, 245, 0.55);
+}
+
+.contenido-banner h1 {
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+.contenido-banner p {
+    max-width: 600px;
+}
+
+.boton-rosa {
+    background-color: #bc92f3;
+    color: white;
+    border: none;
+    padding: 10px 22px;
+}
+
+.boton-rosa:hover {
+    background-color: #b583ee;
+    color: white;
+}
+
+/* SECCIONES */
+.seccion {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.seccion h2 {
+    color: #000000;
+    font-weight: bold;
+}
+
+.seccion-productos,
+.seccion-ingredientes {
+    background-color: #fff5f8;
+}
+
+/* BENEFICIOS */
+.tarjeta-beneficio {
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff0f5;
+    border-radius: 15px;
+}
+
+.tarjeta-beneficio i {
+    display: block;
+    font-size: 2.5rem;
+    color: #3e1d64;
+    margin-bottom: 15px;
+}
+
+.tarjeta-beneficio h3 {
+    color: #31283b;
+    font-size: 1.3rem;
+}
+
+/* PRODUCTOS */
+.tarjeta {
+    overflow: hidden;
+    border: 1px solid #6e03e9;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(160, 80, 110, 0.08);
+}
+
+.tarjeta .card-img-top {
+    width: 100%;
+    height: 230px;
+    object-fit: contain;
+    background-color: white;
+    padding: 12px;
+}
+
+.tarjeta .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tarjeta .card-title {
+    color: #59a8b3;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.tipo-producto {
+    color: #0c0c0c;
+    font-size: 0.9rem;
+}
+
+.precio {
+    color: #1b1a1b;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* DETALLES DESPLEGABLES */
+.detalle-producto {
+    width: 100%;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.detalle-producto summary,
+.ingrediente-item summary {
+    cursor: pointer;
+    color: #8758f5;
+    font-weight: bold;
+}
+
+.detalle-producto p {
+    margin-top: 12px;
+}
+
+/* RUTINAS */
+.tarjeta-rutina {
+    height: 100%;
+    padding: 25px;
+    background-color: #fff0f5;
+    border-radius: 15px;
+    border: 1px solid #b583ee;
+}
+
+.tarjeta-rutina h3 {
+    color: #b583ee;
+}
+
+.tarjeta-rutina li {
+    margin-bottom: 8px;
+}
+
+/* INGREDIENTES */
+.lista-ingredientes {
+    max-width: 850px;
+    margin: auto;
+}
+
+.ingrediente-item {
+    padding: 18px;
+    margin-bottom: 12px;
+    border: 1px solid #cda6fa;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.ingrediente-item p {
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+    padding: 35px 0 20px;
+    background-color: #c8a2f5;
+    color: #0c0c0c;
+}
+
+.pie-pagina h2 {
+    font-weight: bold;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.redes-sociales a {
+    color: #b583ee;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* ADAPTACIÓN A CELULARES */
+@media (max-width: 768px) {
+    .menu-contenedor {
+        padding: 12px 0;
+    }
+
+    .menu-contenedor .container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .menu-sin-js {
+        gap: 10px;
+    }
+
+    .menu-sin-js a {
+        font-size: 0.9rem;
+    }
+
+    .banner-estatico,
+    .imagen-banner {
+        min-height: 300px;
+        height: 300px;
+    }
+
+    .contenido-banner h1 {
+        font-size: 1.7rem;
+    }
+
+    .tarjeta .card-img-top {
+        height: 200px;
+    }
+}

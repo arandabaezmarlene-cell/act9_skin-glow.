@@ -1,0 +1,585 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin & Glow | Cuidado de la piel</title>
+
+    <!-- Bootstrap: estilos solamente, sin JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Tu archivo CSS -->
+    <link rel="stylesheet" href="css/miEstilo.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y MENÚ -->
+    <header class="encabezado">
+        <nav class="navbar navbar-expand-lg menu-contenedor">
+            <div class="container">
+
+                <a class="navbar-brand d-flex align-items-center" href="#inicio">
+                    <img src="images/logo.png"
+                         alt="Logo Skin & Glow"
+                         class="logo">
+                    <span class="nombre-marca">Skin &amp; Glow</span>
+                </a>
+
+                <div class="menu-sin-js">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#beneficios">Beneficios</a>
+                    <a href="#productos">Productos</a>
+                    <a href="#rutinas">Rutinas</a>
+                    <a href="#ingredientes">Ingredientes</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INICIO / BANNER -->
+        <section id="inicio" class="banner-estatico">
+            <img src="images/banner1.jpg"
+                 alt="Cuidado de la piel"
+                 class="imagen-banner">
+
+            <div class="contenido-banner">
+                <h1>Cuida tu piel, ilumina tu belleza</h1>
+                <p>
+                    Descubre productos y consejos para cuidar tu piel
+                    y mantenerla saludable todos los días.
+                </p>
+                <a href="#productos" class="btn boton-rosa">
+                    Ver productos
+                </a>
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section id="beneficios" class="container seccion">
+            <div class="text-center mb-4">
+                <h2>El cuidado que tu piel merece</h2>
+                <p>
+                    En Skin &amp; Glow creemos que una rutina de cuidado
+                    personal comienza con conocer las necesidades de tu piel.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="tarjeta-beneficio">
+                        <i class="bi bi-droplet-heart"></i>
+                        <h3>Hidratación</h3>
+                        <p>
+                            Ayuda a mantener la piel hidratada y suave
+                            con productos adecuados para sus necesidades.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tarjeta-beneficio">
+                        <i class="bi bi-flower1"></i>
+                        <h3>Cuidado diario</h3>
+                        <p>
+                            Conoce los pasos básicos para cuidar tu piel
+                            por la mañana y por la noche.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="tarjeta-beneficio">
+                        <i class="bi bi-stars"></i>
+                        <h3>Bienestar</h3>
+                        <p>
+                            Dedica unos minutos al día a tu rutina
+                            de cuidado personal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTOS -->
+        <section id="productos" class="seccion seccion-productos">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>Nuestros productos</h2>
+                    <p>
+                        Explora nuestro catálogo y consulta la información
+                        de cada producto.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- PRODUCTO 1 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto1.jpg"
+                                 class="card-img-top"
+                                 alt="Limpiador facial">
+                            <div class="card-body">
+                                <h3 class="card-title">Limpiador facial</h3>
+                                <p class="tipo-producto">Limpieza facial</p>
+                                <p>
+                                    Ayuda a retirar las impurezas acumuladas
+                                    en la piel.
+                                </p>
+                                <p class="precio">$250.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Formulado con ácido salicílico para tratar imperfecciones y brotes,
+                                        combinado con extractos de manzanilla y té verde que calman la piel.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Aplica una pequeña cantidad sobre el rostro limpio o
+                                        focalizado directamente sobre los brotes activos.</p>
+                                    <p><strong>Producto:</strong>
+                                    Artistry Studio Zen + Energy Anti-Blemish Treatment Clearing Gel</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 2 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto2.png"
+                                 class="card-img-top"
+                                 alt="Agua micelar">
+                            <div class="card-body">
+                                <h3 class="card-title">Agua micelar</h3>
+                                <p class="tipo-producto">Limpieza facial</p>
+                                <p>
+                                    Ayuda a eliminar residuos de maquillaje
+                                    y suciedad.
+                                </p>
+                                <p class="precio">$180.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Formulado con tecnología micelar (moléculas que atraen impurezas como imán),
+                                        semilla de chía blanca Nutrilite y extracto de sandía que protege contra los radicales libres.
+                                        Elimina maquillaje a prueba de agua sin frotar ni dejar sensación grasosa.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Agita bien, humedece un disco de algodón y pásalo suavemente por todo el rostro,
+                                        ojos y labios. No requiere enjuague.</p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Skin Nutrition Agua Micelar Desmaquillante y Limpiador.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 3 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto8.jpg"
+                                 class="card-img-top"
+                                 alt="Tónico facial">
+                            <div class="card-body">
+                                <h3 class="card-title">Tónico facial</h3>
+                                <p class="tipo-producto">Tonificación</p>
+                                <p>
+                                    Complementa la limpieza dentro de
+                                    una rutina facial.
+                                </p>
+                                <p class="precio">$200.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Contiene ácido salicílico (1%) para refrescar poros,
+                                        agua de rosas y extractos cítricos que revitalizan el rostro.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Vierte en un disco de algodón y pásalo suavemente por
+                                        todo el rostro después de la limpieza diaria.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Studio Zen + Energy Anti-Blemish Toner + Pore Refresher.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 4 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto3.jpg"
+                                 class="card-img-top"
+                                 alt="Sérum facial">
+                            <div class="card-body">
+                                <h3 class="card-title">Sérum facial</h3>
+                                <p class="tipo-producto">Tratamiento</p>
+                                <p>
+                                    Producto de cuidado facial que se
+                                    incorpora según las necesidades de la piel.
+                                </p>
+                                <p class="precio">$320.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Combina vitamina C pura 100%,
+                                        triple ácido hialurónico (HA3) y cereza acerola de
+                                        Nutrilite para brindar brillo e hidratación profunda.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Libera la vitamina C en polvo agitando el frasco,
+                                        luego aplica de 4 a 5 gotas sobre el rostro limpio antes de la crema hidratante.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Skin Nutrition Vitamin C + HA3 Daily Serum.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 5 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto4.jpg"
+                                 class="card-img-top"
+                                 alt="Crema hidratante">
+                            <div class="card-body">
+                                <h3 class="card-title">Crema hidratante</h3>
+                                <p class="tipo-producto">Hidratación</p>
+                                <p>
+                                    Ayuda a conservar la hidratación
+                                    de la piel.
+                                </p>
+                                <p class="precio">$280.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Contiene ácido hialurónico,
+                                        romero y péptidos que ayudan a renovar
+                                        y reafirmar la piel madura o deshidratada.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Aplica una pequeña cantidad sobre rostro y cuello limpios,
+                                        realizando un suave masaje ascendente.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Skin Nutrition Renewing Reactivation Cream.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 6 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto5.jpg"
+                                 class="card-img-top"
+                                 alt="Protector solar">
+                            <div class="card-body">
+                                <h3 class="card-title">Protector solar</h3>
+                                <p class="tipo-producto">Protección solar</p>
+                                <p>
+                                    Ayuda a proteger la piel de la radiación
+                                    ultravioleta.
+                                </p>
+                                <p class="precio">$350.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Ofrece protección de amplio espectro FPS 50,
+                                        con agua de complejo de Cica, prebióticos y romero.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Aplica de manera uniforme sobre las zonas expuestas al sol 15 minutos antes de salir
+                                        y reaplica según sea necesario.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        G&H Protect Body Lotion / Sunscreen SPF 50.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 7 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto6.jpg"
+                                 class="card-img-top"
+                                 alt="Mascarilla facial">
+                            <div class="card-body">
+                                <h3 class="card-title">Mascarilla facial</h3>
+                                <p class="tipo-producto">Cuidado facial</p>
+                                <p>
+                                    Complementa la rutina de cuidado
+                                    según el tipo de mascarilla.
+                                </p>
+                                <p class="precio">$220.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Formuladas con fitonutrientes de granjas Nutrilite
+                                        (como granada, té verde y arcillas minerales) para pulir,
+                                        firmar o purificar la piel.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Extiende una capa uniforme sobre la piel limpia,
+                                        deja actuar durante 7 a 10 minutos y enjuaga con agua tibia.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Mascarillas Artistry Signature Select.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 8 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto10.jpg"
+                                 class="card-img-top"
+                                 alt="Exfoliante facial">
+                            <div class="card-body">
+                                <h3 class="card-title">Exfoliante facial</h3>
+                                <p class="tipo-producto">Exfoliación</p>
+                                <p>
+                                    Ayuda a retirar células muertas
+                                    cuando se utiliza adecuadamente.
+                                </p>
+                                <p class="precio">$240.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Contiene granos de bambú natural para una exfoliación suave,
+                                        enriquecido con aloe vera e ingredientes botánicos que hidratan y aportan energía.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Aplica sobre la piel húmeda,
+                                        masajea con movimientos circulares suaves evitando el contorno de ojos y enjuaga bien con agua.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Studio Zen + Energy Cleanser + Exfoliator.</p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 9 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto7.png"
+                                 class="card-img-top"
+                                 alt="Contorno de ojos">
+                            <div class="card-body">
+                                <h3 class="card-title">Contorno de ojos</h3>
+                                <p class="tipo-producto">Cuidado facial</p>
+                                <p>
+                                    Diseñado para complementar el cuidado
+                                    de la zona alrededor de los ojos.
+                                </p>
+                                <p class="precio">$290.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Diseñado con aplicador en esfera metálica,
+                                        contiene cafeína, extracto de pepino y pigmentos iluminadores.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Oprime ligeramente el tubo y
+                                        desliza el aplicador frío por la zona de las ojeras;
+                                        da toques suaves con la yema de los dedos.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                       Artistry Studio Zen + Energy Eye Look Energized Highlighting & Cooling Roll-On
+                                    </p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                    <!-- PRODUCTO 10 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <article class="card tarjeta h-100">
+                            <img src="images/producto9.jpg"
+                                 class="card-img-top"
+                                 alt="Bálsamo labial">
+                            <div class="card-body">
+                                <h3 class="card-title">Crema corporal</h3>
+                                <p class="tipo-producto">Cuidado de la piel</p>
+                                <p>
+                                    Ayuda a mantener los labios suaves
+                                    y protegidos.
+                                </p>
+                                <p class="precio">$120.00</p>
+
+                                <details class="detalle-producto">
+                                    <summary>Ver detalles</summary>
+                                    <p><strong>Ingredientes:</strong>
+                                        Consulta la etiqueta del producto.</p>
+                                    <p><strong>Modo de uso:</strong>
+                                        Aplicar sobre los labios siguiendo
+                                        las indicaciones del envase.
+                                    </p>
+                                    <p><strong>Producto:</strong>
+                                        Artistry Skin Nutrition Bálsamo Labial.
+                                    </p>
+                                </details>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- RUTINAS -->
+        <section id="rutinas" class="container seccion">
+            <div class="text-center mb-4">
+                <h2>Rutinas de cuidado facial</h2>
+                <p>
+                    Conoce algunos pasos generales para diferentes
+                    tipos de piel.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <article class="tarjeta-rutina">
+                        <h3>Piel grasa</h3>
+                        <ol>
+                            <li>Limpiar con un producto suave.</li>
+                            <li>Usar hidratante adecuado para la piel.</li>
+                            <li>Aplicar protector solar.</li>
+                        </ol>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="tarjeta-rutina">
+                        <h3>Piel seca</h3>
+                        <ol>
+                            <li>Utilizar un limpiador suave.</li>
+                            <li>Aplicar una crema hidratante.</li>
+                            <li>Usar protector solar durante el día.</li>
+                        </ol>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="tarjeta-rutina">
+                        <h3>Piel mixta</h3>
+                        <ol>
+                            <li>Limpiar suavemente el rostro.</li>
+                            <li>Elegir una hidratación adecuada.</li>
+                            <li>Aplicar protector solar.</li>
+                        </ol>
+                    </article>
+                </div>
+
+                <div class="col-md-6">
+                    <article class="tarjeta-rutina">
+                        <h3>Piel sensible</h3>
+                        <ol>
+                            <li>Elegir productos suaves y sin fragancia.</li>
+                            <li>Introducir productos nuevos poco a poco.</li>
+                            <li>Usar protector solar que se tolere bien.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- INGREDIENTES -->
+        <section id="ingredientes" class="seccion seccion-ingredientes">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2>Ingredientes para el cuidado de la piel</h2>
+                    <p>
+                        Aprende para qué se utilizan algunos ingredientes
+                        frecuentes en productos de cuidado facial.
+                    </p>
+                </div>
+
+                <div class="lista-ingredientes">
+
+                    <details class="ingrediente-item">
+                        <summary>Ácido hialurónico</summary>
+                        <p>
+                            Es un ingrediente humectante que ayuda a atraer
+                            y retener agua en la piel.
+                        </p>
+                    </details>
+
+                    <details class="ingrediente-item">
+                        <summary>Niacinamida</summary>
+                        <p>
+                            Es una forma de vitamina B3 que se utiliza
+                            en productos para apoyar la barrera cutánea.
+                        </p>
+                    </details>
+
+                    <details class="ingrediente-item">
+                        <summary>Vitamina C</summary>
+                        <p>
+                            Es un antioxidante empleado en productos
+                            para el cuidado de la piel.
+                        </p>
+                    </details>
+
+                    <details class="ingrediente-item">
+                        <summary>Aloe vera</summary>
+                        <p>
+                            Se utiliza en algunos productos para aportar
+                            una sensación calmante e hidratante.
+                        </p>
+                    </details>
+
+                    <details class="ingrediente-item">
+                        <summary>Ceramidas</summary>
+                        <p>
+                            Son lípidos que ayudan a mantener la barrera
+                            protectora de la piel.
+                        </p>
+                    </details>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="pie-pagina">
+        <div class="container text-center">
+            <h2>Skin &amp; Glow</h2>
+            <p>Tu cuidado personal comienza aquí.</p>
+
+            <div class="redes-sociales">
+                <a href="#inicio" aria-label="Volver al inicio">
+                    <i class="bi bi-house-heart"></i>
+                </a>
+                <a href="#productos" aria-label="Ver productos">
+                    <i class="bi bi-bag-heart"></i>
+                </a>
+                <a href="#rutinas" aria-label="Ver rutinas">
+                    <i class="bi bi-stars"></i>
+                </a>
+            </div>
+
+            <p class="copyright">
+                &copy; 2026 Skin &amp; Glow. En Skin&Glow te brindamos los mejores productos.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
